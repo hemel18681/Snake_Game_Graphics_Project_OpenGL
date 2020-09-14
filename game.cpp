@@ -23,7 +23,7 @@ void unit(int x,int y){
     }
     else{
         glLineWidth(1.0);
-        glColor3f(1.0,1.0,1.0);
+        glColor3f(0.2,0.2,0.2);
     }
     glBegin(GL_LINE_LOOP);//connects the vartex and loop is formed
         glVertex2f(x,y);
